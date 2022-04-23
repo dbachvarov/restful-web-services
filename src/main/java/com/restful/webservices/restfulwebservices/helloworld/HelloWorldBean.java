@@ -1,4 +1,4 @@
-package com.restful.webservices.restfulwebservices;
+package com.restful.webservices.restfulwebservices.helloworld;
 
 /**
  * Created by danielbachvarov on 21/01/2022
@@ -19,8 +19,9 @@ public class HelloWorldBean {
 
     @Override
     public String toString() {
-        return "HelloWorldBean{" +
-                "message='" + message + '\'' +
-                '}';
+//        return "HelloWorldBean{" +
+//                "message='" + message + '\'' +
+//                '}';
+        return String.format("HelloWorldBean [message=%s]",message);
     }
 }
